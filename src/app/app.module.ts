@@ -7,9 +7,9 @@ import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReferencesComponent } from './references/references.component';
 import { AboutComponent } from './about/about.component';
-import { PatnersComponent } from './patners/patners.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { PartnersComponent } from './partners/partners.component';
 
 @NgModule({
   declarations: [
@@ -18,15 +18,12 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     ReferencesComponent,
     AboutComponent,
-    PatnersComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    PartnersComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
